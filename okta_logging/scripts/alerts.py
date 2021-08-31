@@ -15,7 +15,7 @@ orglist = file.readlines()
 org = orglist[0].rstrip()
 alerts = alert.load_alerts(org)
 logfilename = "logs/" + org + ".json"
-logfile = open(logfilename,'r')
+logfile = open(logfilename,'rb')
 events = json.load(logfile)
 for event in events:
     try:
