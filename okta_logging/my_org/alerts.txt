@@ -1,0 +1,1 @@
+user.session.start outcome:result,FAILURE Failed_login_attempt actor:alternateId,published CHECK_USER,actor:alternateId
